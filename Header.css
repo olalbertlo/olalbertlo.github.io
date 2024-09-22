@@ -1,0 +1,40 @@
+.TitleBar {
+    font-family: Handjet;
+    font-size: 35px;
+    color: lightgray;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.Index {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    opacity: 0.6;
+    border-radius: 20px;
+    margin: 150px auto auto 200px;
+    button {
+        width: 160px;
+        height: 60px;
+        font-family: Handjet;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+    button:hover {
+        background-color: rgb(199, 194, 194);
+        transition: 2ms;
+        cursor: pointer;
+    }
+}
+

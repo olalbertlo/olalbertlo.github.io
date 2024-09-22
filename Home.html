@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Albert's Blog</title>
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="TitleBar">Albert's Blog</div>
+      <div class="Index">
+        <button onclick="ChangeIndex('Section1')">Home</button>
+        <button onclick="ChangeIndex('Section2')">About Me</button>
+        <button onclick="ChangeIndex('Section3')">Anime List</button>
+      </div>
+    </header>
+    <main>
+        <div class="Content">
+          <div id="Section1" class="Content-Section active">
+            <img class="Profile_pic" src="Irina.png">
+            <div class="Intro_Name">
+              謝誌評(Albert)
+            </div>
+            <div class="Intro_List">
+              <ul>
+                <li>性別：男</li>
+                <li>身高：181公分</li>
+                <li>體重：75公斤</li>
+                <li>
+                  學歷：
+                  <ul type="circle">
+                    <li>大學：國立海洋大學 資訊工程學系(在學)</li>
+                    <li>高中：國立新竹高中 普通班</li>
+                    <li>國中：新竹縣立湖口國中 體育班</li>
+                  </ul>
+                </li>
+                <li>榮譽：國小當過班長</li>
+              </ul>
+            </div>
+          </div>
+          <div id="Section2" class="Content-Section">
+            <div class="interest">
+              <h1>興趣</h1>
+              <p>
+                <ul>
+                  <li>籃球，從小打到打</li>
+                  <li>健身，暑假開始，這學期目標倒三角</li>
+                  <li>看動漫，高二開始看，直接廢寢忘食看了兩年</li>
+                  <li>原神啟動，角色很香我無法控制</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div id="Section3" class="Content-Section">
+            <div class="kamianime">
+              <h1>好看神作一生必看</h1>
+              <ul>
+                <li>命運石之門</li>
+                <li>哥布林殺手</li>
+                <li>內心的糟糕念頭(世欠我杏奈)</li>
+                <li>86</li>
+                <li>魔法使的新娘</li>
+                <li>來自新世界</li>
+                <li>淺草鬼妻日記</li>
+                <li>果青(雪乃我婆)</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+      <div class="Contact">
+          <a href="https://www.instagram.com/15.06.al/?hl=zh-tw" target="_blank">
+            <span class="ri--instagram-line"></span>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100009378301183" target="_blank">
+            <span class="fe--facebook"></span>
+          </a>
+          <a href="https://github.com/olalbertlo" target="_blank">
+            <span class="mdi--github"></span>
+          </a>
+          <a href="mailto:01257060@email.ntou.edu.tw" target="_blank">
+            <span class="mdi--gmail"></span>
+          </a>
+      </div>
+    </footer>
+
+    <script src="IndexChanging.js"></script>
+    <script src="background_animation.js"></script>
+  </body>
+</html>

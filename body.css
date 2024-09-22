@@ -1,0 +1,87 @@
+html, body {
+    display: grid;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    position: relative;
+    height: 80vh;
+    width: 50vw;
+    background-color: lightgray;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    border-radius: 25px;
+}
+.Content-Section {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease, visibility 0s 0.5s;
+}
+.Content-Section.active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0s;
+}
+
+
+
+.Profile_pic {
+    float: left;
+    height: 150px;
+    margin: 50px 0 0 70px;
+    border-radius: 15px;
+}
+
+.Intro_Name {
+    float: right;
+    font-family: chocolate classical sans;
+    font-size: 60px;
+    height: 80px;
+    margin: 80px 140px 0 50px;
+}
+.Intro_List {
+    display: grid;
+    margin-top: 100px;
+    font-family: chocolate classical sans;
+    font-size: 16px;
+    margin-top: 250px;
+    margin-left: 60px;
+    li {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+}
+
+.interest {
+    margin-top: -500px;
+    margin-left: 120px;
+    font-family: chocolate classical sans;
+    font-size: 24px;
+    li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.kamianime {
+    margin-top: -550px;
+    margin-left: 120px;
+    font-family: chocolate classical sans;
+    font-size: 24px;
+    li {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+canvas {
+    position:fixed;
+    z-index:-1;
+}
